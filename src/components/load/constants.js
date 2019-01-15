@@ -1,0 +1,41 @@
+const INITIAL_VALUES = {
+  HP: 100,
+  kills: 0,
+  x: 0,
+  tick_count: 0,
+  healY: 0,
+  breathInc: 0.1,
+  breathDir: 1,
+  breathAmt: 0,
+  breathMax: 2,
+  monsterFace: 0,
+};
+
+const CANVAS_SIZES = {
+  maleCanvasHeight: 350,
+  maleCanvasWidth: 295,
+  femaleCanvasHeight: 350,
+  femaleCanvasWidth: 220,
+  maleMaxSteps: 6,
+  femaleMaxSteps: 4,
+  maleY: 155,
+  femaleY: 100,
+  maleStep: 300,
+  femaleStep: 217.5,
+  maleSpriteWidth: 1750,
+  maleSpriteWidth2: 1700,
+  maleSpriteWidth3: 1715,
+  maleSpriteHeight: 350,
+  femaleSpriteHeight: 220,
+  femaleSpriteWidth: 1100,
+  monsterCanvasHeight: 250,
+  monsterCanvasWidth: 200,
+  healCanvasWidth: 150,
+  healCanvasHeight: 125,
+  healStep: 135,
+  healX: 30,
+  healSpriteWidth: 768,
+  healSpriteHeight: 630,
+};
+
+export { INITIAL_VALUES, CANVAS_SIZES };
